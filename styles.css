@@ -1,0 +1,199 @@
+/*General Styles*/
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #1e1e2f;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 40px;
+    font-size: 2.5em;
+    color: #00adb5;
+}
+
+.tracker {
+    width: 100%;
+    max-width: 800px;
+}
+
+/* Subject Row Styles */
+.subject-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: #393e46;
+    border-radius: 10px;
+}
+
+.subject-name {
+    flex: 1;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+/* Progress Bar Styles */
+.progress-bar {
+    display: flex;
+    align-items: center;
+    flex: 3;
+    position: relative;
+}
+
+/* Circle Styles */
+.circle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: #222831;
+    margin: 0 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+/* Hyphen Styles */
+.hyphen {
+    width: 10px;
+    height: 5px;
+    background-color: #222831;
+    margin: 0 2px;
+    border-radius: 2px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.5);
+    transition: background-color 0.3s, width 0.3s, box-shadow 0.3s;
+}
+
+/* Study Button Styles */
+.study-button {
+    margin-left: 20px;
+    padding: 10px 20px;
+    background-color: #00adb5;
+    border: none;
+    border-radius: 5px;
+    color: #eeeeee;
+    font-size: 1em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.study-button:hover {
+    background-color: #019ca1;
+}
+
+/* Active Styles with Color Gradient */
+.active {
+    background-color: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.active.level-1 {
+    background-color: #ff4d00; /* Red-Orange */
+    box-shadow: 0 0 10px #ff4d00;
+}
+
+.active.level-2 {
+    background-color: #ff8000; /* Orange */
+    box-shadow: 0 0 10px #ff8000;
+}
+
+.active.level-3 {
+    background-color: #ffbf00; /* Yellow-Orange */
+    box-shadow: 0 0 10px #ffbf00;
+}
+
+.active.level-4 {
+    background-color: #ffff00; /* Yellow */
+    box-shadow: 0 0 10px #ffff00;
+}
+
+.active.level-5 {
+    background-color: #bfff00; /* Yellow-Green */
+    box-shadow: 0 0 10px #bfff00;
+}
+
+.active.level-6 {
+    background-color: #80ff00; /* Light Green */
+    box-shadow: 0 0 10px #80ff00;
+}
+
+.active.level-7 {
+    background-color: #40ff00; /* Green */
+    box-shadow: 0 0 10px #40ff00;
+}
+
+.active.level-8 {
+    background-color: #00ff40; /* Green-Blue */
+    box-shadow: 0 0 10px #00ff40;
+}
+
+.active.level-9 {
+    background-color: #00ff80; /* Aqua */
+    box-shadow: 0 0 10px #00ff80;
+}
+
+.active.level-10 {
+    background-color: #00ffbf; /* Light Blue */
+    box-shadow: 0 0 10px #00ffbf;
+}
+
+.active.level-11 {
+    background-color: #00ffff; /* Cyan */
+    box-shadow: 0 0 10px #00ffff;
+}
+
+.active.level-12 {
+    background-color: #00bfff; /* Sky Blue */
+    box-shadow: 0 0 10px #00bfff;
+}
+
+.active.level-13 {
+    background-color: #0080ff; /* Blue */
+    box-shadow: 0 0 10px #0080ff;
+}
+
+.active.level-14 {
+    background-color: #0040ff; /* Deep Blue */
+    box-shadow: 0 0 10px #0040ff;
+}
+
+.active.level-15 {
+    background-color: #0000ff; /* Pure Blue */
+    box-shadow: 0 0 10px #0000ff;
+}
+
+.active.level-16 {
+    background-color: #4000ff; /* Indigo */
+    box-shadow: 0 0 10px #4000ff;
+}
+
+.active.level-17 {
+    background-color: #8000ff; /* Violet */
+    box-shadow: 0 0 10px #8000ff;
+}
+
+.active.level-18 {
+    background-color: #bf00ff; /* Purple */
+    box-shadow: 0 0 10px #bf00ff;
+}
+
+.active.level-19 {
+    background-color: #ff00ff; /* Magenta */
+    box-shadow: 0 0 10px #ff00ff;
+}
+
+.active.level-20 {
+    background-color: #ff00bf; /* Pink */
+    box-shadow: 0 0 10px #ff00bf;
+}
+
+.completed {
+    background-color: #ffffff; /* White for completed */
+    box-shadow: 0 0 10px #ffffff;
+}
